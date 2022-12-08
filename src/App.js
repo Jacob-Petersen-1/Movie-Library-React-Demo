@@ -5,6 +5,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import HomePage from "./pages/HomePage";
+import MovieDetail from "./pages/MovieDetail";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path='details/:title/' element={<MovieDetail />}/>
       </Routes>
       <Footer />
     </>
