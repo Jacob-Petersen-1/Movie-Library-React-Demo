@@ -1,0 +1,30 @@
+
+.topbar-container{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 100%;
+    position: sticky;
+    flex-direction: column;
+}
+
+
+
+.topbar-left{
+    color: white;
+    
+
+}
+
+.topbar-image{
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.logo-image{
+    height: 140px;
+    width:400px;
+}
