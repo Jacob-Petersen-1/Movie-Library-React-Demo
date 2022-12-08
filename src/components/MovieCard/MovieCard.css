@@ -1,0 +1,10 @@
+.movie-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-poster{
+    height: 500px;
+    width: 50%;
+}
